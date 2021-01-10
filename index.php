@@ -62,7 +62,7 @@ $slideslink6 = $this->params->get('slideslink6');
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template03.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template08.css" type="text/css" />
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/sfhover.js"></script>
 	<?php if (($this->countModules('position-15') && $slides == 2) || ($slides == 1)): ?>	
 	<!-- Slides Scripts -->
@@ -105,8 +105,8 @@ $slideslink6 = $this->params->get('slideslink6');
 
 		<!-- Logo -->
 		<div id="logo">
-		<div id="christmas" style="height: 195px;">
-	<img src="templates/meembo-blue/images/tree_small.png">
+		<div id="christmas" style="height: 195px;">		
+    <img src="/templates/meembo-blue/images/tree_small.png">
 	</div>
 			<?php if ($logo && $logoimage == 1): ?>
 				<a href="<?php echo $this->baseurl ?>"><img src="<?php echo htmlspecialchars($logo); ?>"  alt="<?php echo $sitename; ?>" /></a>

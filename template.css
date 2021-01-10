@@ -168,6 +168,11 @@ body {
 	background: linear-gradient(90deg, rgba(21, 17, 92, 1) 0%, rgba(195, 135, 174, 1) 0%, rgba(87, 61, 233, 1) 100%);
 }
 
+.mceContentBody,
+body#tinymce {
+	background: whitesmoke;
+}
+
 a {
 	/* color: #023c56; */
 	color: #1f94c7;
@@ -2220,7 +2225,7 @@ body.contentpane a:hover {
 	padding: 0px;
 	float: none;
 	display: flex;
-	/* flex-direction: column; */
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
@@ -2315,10 +2320,4 @@ body.contentpane a:hover {
 #box_placeholder h3 {
 	font-family: 'Chelsea Market', cursive;
 	letter-spacing: 1px;
-}
-
-/* christmas tree */
-
-#christmas img {
-	height: 195px;
 }
