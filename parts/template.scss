@@ -2345,5 +2345,9 @@ body.contentpane a:hover {
     }
 }
 
-@import './parts/header.scss';
-@import './parts/topmenu.scss';
+body {
+    background: white;
+}
+
+@import './header.scss';
+@import './topmenu.scss';

@@ -1,0 +1,15 @@
+#topmenu {
+    width: 100%;
+    margin-top: 1px;
+    background: #1b1b1b;
+
+    ul {
+        background-color: transparent;
+
+        li:nth-child(1) {
+            a {
+                color: #ffb000 !important;
+            }
+        }
+    }
+}
