@@ -1,3 +1,19 @@
 #slideshow {
     margin-top: 104px;
+    width: 80vw;
+
+    .slides_container {
+        width: 100%;
+
+        img {
+            width: 80vw;
+            height: auto;
+        }
+
+    }
+
+}
+
+#slides .next {
+    right: 0px;
 }
