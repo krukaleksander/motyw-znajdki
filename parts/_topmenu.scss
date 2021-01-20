@@ -2,14 +2,18 @@
     width: 100%;
     margin-top: 1px;
     background: #1b1b1b;
+    position: fixed;
+    top: 54px;
+    left: 0px;
+    z-index: 11;
 
-    ul {
+
+    ul:nth-child(1) {
         background-color: transparent;
 
-        li:nth-child(1) {
-            a {
-                color: #ffb000 !important;
-            }
-        }
     }
+}
+
+#leftmenu {
+    display: none;
 }
