@@ -33,5 +33,20 @@
             text-align: center;
             background-image: none;
         }
+
+        .prev {
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0px;
+        }
+
+        .next {
+            right: 0px;
+            left: 77vw;
+            margin: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 }
