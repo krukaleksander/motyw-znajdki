@@ -1,0 +1,44 @@
+#content-menu_wrap {
+    width: 80vw;
+
+    #container-leftmenu-content {
+
+        #container-leftmenu-left {
+            right: 0px;
+            position: unset;
+            border: none;
+
+            #content-leftmenu {
+                position: unset;
+                width: 100%;
+                padding: 10px;
+
+                .breadcrumbs {
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    color: rgb(144, 111, 111);
+                }
+
+                .items-leading {
+                    article {
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 25px;
+                        padding: 5px;
+                        border-bottom: 1px solid black;
+                        margin-top: 10px;
+
+                        h2 {
+                            text-align: center;
+                            font-family: 'Anton', sans-serif;
+                            font-size: 35px;
+                        }
+
+                        div[dir="auto"] {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
