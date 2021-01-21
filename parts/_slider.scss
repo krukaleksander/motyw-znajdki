@@ -10,10 +10,28 @@
             height: auto;
         }
 
+
+
     }
 
 }
 
-#slides .next {
-    right: 0px;
+#slides {
+    .slides_nav {
+
+        .prev,
+        .next {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #0000007a;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background-image: none;
+        }
+    }
 }
