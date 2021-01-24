@@ -1,0 +1,28 @@
+.items-more {
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+
+    h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+
+    }
+
+    ol {
+        list-style-image: url('http://znajdki.pl/templates/meembo-blue/images/paw.png');
+
+        li {
+            font-size: 25px;
+            line-height: 160%;
+        }
+    }
+
+
+}
+
+.pagination {
+    font-size: 20px;
+}
