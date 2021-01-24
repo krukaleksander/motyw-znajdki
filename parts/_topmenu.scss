@@ -12,6 +12,11 @@
         background-color: transparent;
 
     }
+
+    li ul {
+        position: fixed;
+        background-color: rgb(27, 27, 27);
+    }
 }
 
 #leftmenu {

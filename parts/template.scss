@@ -2346,7 +2346,7 @@ body.contentpane a:hover {
 }
 
 body {
-    background: white;
+    background: rgb(219, 236, 199);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;700&display=swap');
@@ -2355,3 +2355,4 @@ body {
 @import './slider.scss';
 @import './content.scss';
 @import './more-aricles';
+@import './footer';

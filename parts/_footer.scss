@@ -1,0 +1,13 @@
+#box_placeholder {
+    width: 100%;
+    justify-content: center;
+
+    #box1,
+    #box3 {
+        flex-basis: 30%;
+    }
+}
+
+#copyright {
+    width: 100%;
+}
