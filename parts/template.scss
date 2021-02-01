@@ -316,6 +316,7 @@ hr {
     display: block;
     padding: 0;
     min-width: 1052px;
+    position: relative;
 }
 
 
@@ -2358,3 +2359,4 @@ body {
 @import './footer';
 @import './custom-page';
 @import './sponsor-slider';
+@import './dogs-cats-page';

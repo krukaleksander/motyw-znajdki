@@ -1,0 +1,76 @@
+.blog {
+    .items-row {
+        display: flex;
+        justify-content: space-evenly;
+
+        article {
+            float: none;
+            flex-basis: 40%;
+            text-align: center;
+            background: linear-gradient(15deg, rgb(108, 217, 106) 50%, rgb(0, 152, 111) 50.1%);
+            padding: 10px;
+            border: 1px solid;
+
+            h2 {
+                font-family: 'Oswald', sans-serif;
+                letter-spacing: 1px;
+                font-size: 30px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+            }
+
+            a.sigProLink {
+                width: 350px !important;
+                height: 350px !important;
+
+                img {
+                    width: 350px !important;
+                    height: 350px !important;
+                    background-size: cover;
+                }
+            }
+
+            .readmore {
+                a {
+                    font-family: 'Oswald', sans-serif;
+                    margin: 10%;
+                    text-align: center;
+                    width: 200px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    margin: 20px;
+                    height: 55px;
+                    text-align: center;
+                    border: none;
+                    background-size: 300% 100%;
+                    border-radius: 50px;
+                    moz-transition: all .4s ease-in-out;
+                    -o-transition: all .4s ease-in-out;
+                    -webkit-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+                    background-color: white;
+                    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
+                    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+
+                    &:hover {
+                        background-position: 100% 0;
+                        moz-transition: all .4s ease-in-out;
+                        -o-transition: all .4s ease-in-out;
+                        -webkit-transition: all .4s ease-in-out;
+                        transition: all .4s ease-in-out;
+                    }
+
+                    &:focus {
+
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
