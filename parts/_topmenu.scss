@@ -16,6 +16,10 @@
     li ul {
         position: fixed;
         background-color: rgb(27, 27, 27);
+
+        li {
+            background-color: black;
+        }
     }
 }
 
