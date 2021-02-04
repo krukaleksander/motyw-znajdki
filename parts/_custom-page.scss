@@ -64,6 +64,7 @@
     ul.sigProContainer.sigProClassic {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
 
         .sigProThumb {
             width: 350px;
