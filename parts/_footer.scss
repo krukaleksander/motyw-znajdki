@@ -1,7 +1,12 @@
 #box_placeholder {
 
+
     width: 100%;
     justify-content: center;
+
+    @include ipad {
+        flex-direction: column;
+    }
 
     @include ipadProPlus {
         padding-left: 0px;
@@ -10,6 +15,37 @@
     #box1,
     #box3 {
         flex-basis: 50%;
+
+        @include ipad {
+            flex-basis: 100%;
+            width: 100%;
+        }
+    }
+
+    #box1 {
+        @include ipad {
+            order: 2;
+        }
+    }
+
+    #box3 {
+        @include ipad {
+            order: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .newsflash {
+
+            p,
+            span {
+                @include ipad {
+                    font-size: 30px !important;
+                    line-height: 35px;
+                }
+            }
+
+        }
     }
 }
 

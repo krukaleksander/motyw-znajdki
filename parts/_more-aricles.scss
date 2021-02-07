@@ -9,6 +9,10 @@
         letter-spacing: 1px;
         text-align: center;
 
+        @include ipad {
+            font-size: 40px;
+        }
+
     }
 
     ol {
@@ -17,6 +21,10 @@
         li {
             font-size: 25px;
             line-height: 160%;
+
+            @include ipad {
+                font-size: 30px;
+            }
         }
     }
 
@@ -25,4 +33,8 @@
 
 .pagination {
     font-size: 20px;
+
+    @include ipadPro {
+        font-size: 25px;
+    }
 }
