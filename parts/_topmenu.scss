@@ -6,10 +6,37 @@
     top: 54px;
     left: 0px;
     z-index: 11;
+    transition: 1s;
 
+    @include ipad {
+        width: auto;
+        right: -100vw;
+        left: unset;
+        padding: 10px;
+        top: 80px;
+    }
 
     ul:nth-child(1) {
         background-color: transparent;
+
+        @include ipad {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li {
+            border: unset;
+
+            a {
+                @include ipad {
+                    font-size: 45px;
+                    line-height: 80px;
+                }
+            }
+
+        }
 
     }
 
@@ -25,4 +52,21 @@
 
 #leftmenu {
     display: none;
+}
+
+#mobileMenuTrigger {
+    display: none;
+    position: fixed;
+    top: 24px;
+    right: 5px;
+    z-index: 12;
+    font-size: 40px;
+    padding: 14px;
+    color: #4bfb59;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px;
+
+    @include ipad {
+        display: block;
+    }
 }

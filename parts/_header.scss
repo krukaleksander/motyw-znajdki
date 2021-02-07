@@ -9,11 +9,19 @@
     left: 0px;
     z-index: 11;
 
+    @include ipad {
+        height: 100px;
+    }
+
     #logo {
 
         a {
             color: #ffb000;
             font-size: 32px;
+
+            @include ipad {
+                font-size: 45px;
+            }
         }
     }
 

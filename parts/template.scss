@@ -2348,10 +2348,19 @@ body.contentpane a:hover {
 }
 
 body {
-    background: rgb(242, 242, 203);
+    // background: rgb(242, 242, 203);
+    background: #3c3c3c;
 }
 
-#wrapper {}
+.pwebfblikebox {
+    @include ipadPro {
+        display: none;
+    }
+}
+
+#wrapper {
+    @include common {}
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;700&display=swap');

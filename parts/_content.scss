@@ -1,6 +1,10 @@
 #content-menu_wrap {
     width: 80vw;
 
+    @include ipad {
+        width: 137vw;
+    }
+
     #container-leftmenu-content {
 
         #container-leftmenu-left {
@@ -42,6 +46,10 @@
 
                         div {
                             padding: 10px;
+
+                            @include ipadPro {
+                                line-height: 40px;
+                            }
                         }
 
                         img.multithumb_blog {

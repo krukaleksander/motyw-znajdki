@@ -75,5 +75,19 @@
     // temporaryRWD
     var head = document.querySelector('head');
     head.innerHTML = head.innerHTML + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
-
+    // menuMobile
+    const menuTrigger = document.getElementById('mobileMenuTrigger');
+    const menu = document.getElementById('topmenu');
+    let flagMenu = false;
+    menuTrigger.addEventListener('click', () => {
+        if (flagMenu === false) {
+            flagMenu = true;
+            menuTrigger.innerHTML = 'Ukryj';
+            menu.style.right = '0px';
+        } else {
+            flagMenu = false;
+            menuTrigger.innerHTML = 'Menu';
+            menu.style.right = '-100vw';
+        }
+    })
 })()
