@@ -1,3 +1,4 @@
+@import './mq';
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
 
@@ -2349,6 +2350,9 @@ body.contentpane a:hover {
 body {
     background: rgb(242, 242, 203);
 }
+
+#wrapper {}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;700&display=swap');
 @import './header.scss';

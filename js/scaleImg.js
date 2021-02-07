@@ -72,5 +72,8 @@
 </ul>`
 
     containerForSponsors.innerHTML = sponsorSlider;
+    // temporaryRWD
+    var head = document.querySelector('head');
+    head.innerHTML = head.innerHTML + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
 
 })()
