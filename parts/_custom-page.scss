@@ -10,12 +10,17 @@
         text-align: center;
         letter-spacing: 1px;
         padding: 10px;
+
+        @include ipadProPlus {
+            font-size: 50px;
+        }
     }
 
     p {
         text-align: justify;
         padding: 10px;
         line-height: 180%;
+        font-size: 30px;
     }
 
     li.next {

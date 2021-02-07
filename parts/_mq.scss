@@ -1,4 +1,5 @@
-$ipadPro: 1023px;
+$ipadProPlus: 1367px;
+$ipadPro: 1025px;
 $iphoneXl: 830px;
 $ipad: 768px;
 $iphone6l: 670px;
@@ -48,6 +49,14 @@ $common: 530px;
 
 @mixin common {
     @media (max-width: #{$common}) {
+        @content
+    }
+}
+
+;
+
+@mixin ipadProPlus {
+    @media (max-width: #{$ipadProPlus}) {
         @content
     }
 }

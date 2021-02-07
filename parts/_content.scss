@@ -33,9 +33,13 @@
                             font-size: 35px;
                         }
 
-                        // div[dir="auto"] {
-                        //     padding: 10px;
-                        // }
+                        div[dir="auto"] {
+                            @include ipadPro {
+                                line-height: 30px;
+                            }
+
+                        }
+
                         div {
                             padding: 10px;
                         }

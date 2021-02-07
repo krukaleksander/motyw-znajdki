@@ -1,6 +1,11 @@
 #box_placeholder {
+
     width: 100%;
     justify-content: center;
+
+    @include ipadProPlus {
+        padding-left: 0px;
+    }
 
     #box1,
     #box3 {
