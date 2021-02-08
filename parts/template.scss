@@ -2359,7 +2359,10 @@ body {
 }
 
 #wrapper {
-    @include common {}
+    @include ipad {
+        width: 100vw;
+        overflow: hidden;
+    }
 }
 
 

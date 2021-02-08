@@ -27,7 +27,7 @@
         right: -1000px;
         left: unset;
         padding: 10px;
-        top: 80px;
+        top: 110px;
     }
 
 
@@ -47,8 +47,8 @@
 
             a {
                 @include ipad {
-                    font-size: 45px;
-                    line-height: 80px;
+                    font-size: 25px;
+                    line-height: 50px;
                 }
             }
 
@@ -76,8 +76,9 @@
     top: 24px;
     right: 5px;
     z-index: 12;
-    font-size: 40px;
+    font-size: 30px;
     padding: 14px;
+    border: 1px solid;
     color: #4bfb59;
     font-weight: bolder;
     text-shadow: 1px 1px 2px;

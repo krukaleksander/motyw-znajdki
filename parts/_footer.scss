@@ -6,6 +6,10 @@
 
     @include ipad {
         flex-direction: column;
+        width: 100vw;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
     }
 
     @include ipadProPlus {
@@ -51,4 +55,9 @@
 
 #copyright {
     width: 100%;
+
+    @include ipad {
+        width: 100vw;
+        margin: 0;
+    }
 }

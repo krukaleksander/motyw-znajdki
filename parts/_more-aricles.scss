@@ -10,7 +10,7 @@
         text-align: center;
 
         @include ipad {
-            font-size: 40px;
+            font-size: 33px;
         }
 
     }
@@ -23,7 +23,7 @@
             line-height: 160%;
 
             @include ipad {
-                font-size: 30px;
+                font-size: 21px;
             }
         }
     }
@@ -35,6 +35,6 @@
     font-size: 20px;
 
     @include ipadPro {
-        font-size: 25px;
+        font-size: 18px;
     }
 }
