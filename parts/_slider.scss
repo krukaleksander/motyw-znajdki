@@ -4,6 +4,7 @@
 
     @include ipad {
         width: 100vw;
+        display: none;
     }
 
     .slides_container {

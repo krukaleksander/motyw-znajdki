@@ -59,10 +59,11 @@ $slideslink6 = $this->params->get('slideslink6');
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template08.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.min.css" type="text/css" />
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/sfhover.js"></script>
 	<?php if (($this->countModules('position-15') && $slides == 2) || ($slides == 1)): ?>	
 	<!-- Slides Scripts -->
@@ -70,6 +71,7 @@ $slideslink6 = $this->params->get('slideslink6');
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<?php endif; ?>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/slides.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/scaleImg.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function(){
 			jQuery('#slides').slides({
@@ -98,7 +100,7 @@ $slideslink6 = $this->params->get('slideslink6');
 <body>
 
 <div id="wrapper">
-
+<div id="mobileMenuTrigger">Menu</div>
 
 	<div id="header">
 

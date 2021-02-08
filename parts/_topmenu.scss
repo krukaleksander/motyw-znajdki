@@ -8,13 +8,29 @@
     z-index: 11;
     transition: 1s;
 
+    .nav-header {
+        text-transform: uppercase;
+        color: white;
+        font-weight: bolder;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            color: #ffb000;
+        }
+    }
+
     @include ipad {
         width: auto;
-        right: -100vw;
+        right: -1000px;
         left: unset;
         padding: 10px;
         top: 80px;
     }
+
+
 
     ul:nth-child(1) {
         background-color: transparent;
@@ -69,4 +85,5 @@
     @include ipad {
         display: block;
     }
+
 }

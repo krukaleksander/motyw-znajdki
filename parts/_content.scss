@@ -5,6 +5,10 @@
         width: 137vw;
     }
 
+    @include common {
+        width: 256vw;
+    }
+
     #container-leftmenu-content {
 
         #container-leftmenu-left {
@@ -36,6 +40,21 @@
                         border-bottom: 1px solid black;
                         margin-top: 10px;
 
+                        p:nth-of-type(1) {
+                            @include common {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+
+                            img {
+                                @include common {
+                                    width: 550px;
+                                    height: auto;
+                                }
+                            }
+                        }
+
                         @include ipad {
                             font-size: 35px;
                         }
@@ -48,6 +67,10 @@
                             @include ipad {
                                 font-size: 50px;
                             }
+
+                            @include common {
+                                font-size: 55px;
+                            }
                         }
 
                         div[dir="auto"] {
@@ -55,6 +78,9 @@
                                 line-height: 30px;
                             }
 
+                            @include common {
+                                line-height: 80px;
+                            }
                         }
 
                         div {
