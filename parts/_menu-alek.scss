@@ -12,7 +12,14 @@
         display: block;
     }
 
+    @include iphoneLandscape {
+        max-height: 200px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
     ul {
+
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -21,6 +28,7 @@
         overflow-y: scroll;
         scroll-behavior: smooth;
         padding: 10px;
+
 
         li {
             margin-top: 5px;

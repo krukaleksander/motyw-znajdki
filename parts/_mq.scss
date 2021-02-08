@@ -7,6 +7,7 @@ $iphoneX: 600px;
 $common: 530px;
 
 
+
 @mixin iphoneX {
     @media (max-width: #{$iphoneX}) {
         @content
@@ -65,6 +66,14 @@ $common: 530px;
 
 @mixin commonPort {
     @media (max-width: #{$common}) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+
+@mixin iphoneLandscape {
+    @media (max-width: #{$iphone6l}) and (orientation: landscape) {
         @content
     }
 }

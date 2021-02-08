@@ -341,9 +341,10 @@ $slideslink6 = $this->params->get('slideslink6');
 	<!-- Banner/Links -->
 	<?php if ($this->countModules('position-9') or $this->countModules('position-10') or $this->countModules('position-11')): ?>
 	<div id="box_placeholder">
+	<img id="logoZnajdki" src="/images/banners/LOGO_male.jpg" alt="Logo" align="left">
 		<div id="box1"><jdoc:include type="modules" name="position-9" style="xhtml" /></div>
 		<div id="box2"><jdoc:include type="modules" name="position-10" style="xhtml" /></div>
-		<div id="box3"><jdoc:include type="modules" name="position-11" style="xhtml" /></div>
+		<div id="box3"><jdoc:include type="modules" name="position-11" style="xhtml" /></div>		
 	</div>
 	<?php endif; ?>
 	
