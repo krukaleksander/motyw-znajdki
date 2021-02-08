@@ -23,6 +23,7 @@
     }
 
     @include ipad {
+        display: none;
         width: auto;
         right: -1000px;
         left: unset;

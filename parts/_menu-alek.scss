@@ -1,0 +1,36 @@
+#menuAlek {
+    display: none;
+    position: fixed;
+    top: 95px;
+    right: -1000px;
+    background-color: black;
+    color: white;
+    z-index: 12;
+    transition: .5s;
+
+    @include ipad {
+        display: block;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        padding: 10px;
+
+        li {
+            margin-top: 5px;
+
+            a {
+                font-family: 'Oswald', sans-serif;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}

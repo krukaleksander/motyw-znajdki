@@ -77,7 +77,7 @@
 
         // menuMobile
         const menuTrigger = document.getElementById('mobileMenuTrigger');
-        const menu = document.getElementById('topmenu');
+        const menu = document.getElementById('menuAlek');
         let flagMenu = false;
         menuTrigger.addEventListener('click', () => {
             if (flagMenu === false) {
