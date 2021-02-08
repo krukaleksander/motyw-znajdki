@@ -2362,6 +2362,7 @@ body {
     @include ipad {
         width: 100vw;
         overflow: hidden;
+        min-width: 100vw;
     }
 }
 

@@ -2,12 +2,10 @@
     width: 80vw;
 
     @include ipad {
-        width: 137vw;
+        width: 100vw;
+        margin: 0;
     }
 
-    @include common {
-        width: 256vw;
-    }
 
     #container-leftmenu-content {
 
@@ -37,6 +35,12 @@
                         padding: 30px;
                     }
 
+                    @include common {
+                        width: 100vw;
+                        box-sizing: border-box;
+                        padding: 5px;
+                    }
+
                     article {
                         font-family: 'Oswald', sans-serif;
                         font-size: 25px;
@@ -46,6 +50,10 @@
 
                         @include ipad {
                             font-size: 22px;
+                        }
+
+                        @include common {
+                            font-size: 16px;
                         }
 
                         p:nth-of-type(1) {
@@ -59,6 +67,10 @@
                                 @include ipad {
                                     width: 300px;
                                     height: auto;
+                                }
+
+                                @include common {
+                                    width: 220px;
                                 }
                             }
                         }
@@ -74,7 +86,8 @@
                             }
 
                             @include common {
-                                font-size: 55px;
+                                font-size: 25px;
+                                margin-top: 35px;
                             }
                         }
 
@@ -84,7 +97,7 @@
                             }
 
                             @include common {
-                                line-height: 80px;
+                                line-height: 22px;
                             }
                         }
 

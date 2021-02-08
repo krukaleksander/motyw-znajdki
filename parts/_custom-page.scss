@@ -4,6 +4,24 @@
     padding: 30px;
     text-align: center;
 
+    @include common {
+        font-size: 16px;
+    }
+
+    p:nth-of-type(1) {
+        @include ipad {
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            @include ipad {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
     h2 {
         font-family: 'Oswald', sans-serif;
         font-size: 35px;
@@ -15,6 +33,11 @@
             margin-top: 40px;
             font-size: 40px;
         }
+
+        @include common {
+            margin-top: 20px;
+            font-size: 28px;
+        }
     }
 
     p {
@@ -25,6 +48,10 @@
 
         @include ipad {
             font-size: 22px;
+        }
+
+        @include common {
+            font-size: 18px;
         }
     }
 
@@ -97,5 +124,22 @@
 
     div[dir='auto'] {
         line-height: 50px;
+
+        @include common {
+            line-height: 35px;
+        }
+    }
+
+    .pager.pagenav {
+        @include common {
+            display: flex;
+            box-sizing: border-box;
+            margin: 0;
+            flex-direction: column;
+            height: 90px;
+            justify-content: space-between;
+            align-content: center;
+        }
+
     }
 }
