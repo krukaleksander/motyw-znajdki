@@ -13,9 +13,9 @@
     }
 
     @include iphoneLandscape {
-        max-height: 200px;
-        overflow-y: scroll;
-        scroll-behavior: smooth;
+        height: 140px;
+        width: 245px;
+        overflow: scroll;
     }
 
     ul {
@@ -25,10 +25,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow-y: scroll;
-        scroll-behavior: smooth;
         padding: 10px;
 
+        // @include iphoneLandscape {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 100%;
+        //     /* The main point: */
+
+        //     /* Optional but highly reccomended: enables momentum scrolling on iOS */
+        //     -webkit-overflow-scrolling: touch;
+        // }
 
         li {
             margin-top: 5px;

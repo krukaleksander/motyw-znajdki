@@ -73,7 +73,7 @@ $common: 530px;
 ;
 
 @mixin iphoneLandscape {
-    @media (max-width: #{$iphone6l}) and (orientation: landscape) {
+    @media (max-width: #{$iphoneXl}) and (orientation: landscape) {
         @content
     }
 }
